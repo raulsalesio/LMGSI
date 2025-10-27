@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Què en penses</title>
+    <style>
+        label {display: block;}
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+        p {font-weight: bold;}
+        legend {font-weight:bold;
+                color: blue;
+                font-size:25px;
+        }
+        button {padding: 5px;
+                background-color: snow;    
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Què en penses?</h1>
+    <form action="que_en_penses_enviat.html">
+        <fieldset>
+            <legend>Subscriu-te al noticiari ITIC Barcelona</legend>
+
+            <p>Primer, explica'ns qui ets</p>
+            <label  for="correu">Correu</label>
+            <input type="email" id="correu" placeholder="exemple@iticbcn.cat" required>
+
+            <label id="nom">Nom complet</label>
+            <input type="text" id="nom" placeholder="Escriu el teu nom" required>
+
+            <label for="edat">Edat</label>
+            <input type="number" id="edat" placeholder="Escriu la teva edat">
+
+            <p>Quin cicle estàs estudiant?</p>
+            <label><input type="radio" name="Asix">ASIX</label>
+            <label><input type="radio" name="Dam">DAM</label>
+            <label><input type="radio" name="Daw">DAW</label>
+
+            <label for="cicle"></label>I en quin curs?</label>
+            <select id="cicle" name="cicle" required>
+            <option value="">Tria el curs</option>
+            <option value="1curs">1r Curs</option>
+            <option value="2curs">2n Curs</option>
+            </select>
+             
+            <p>Marca els temes que vulguis estar sempre al dia!</p>
+
+            <label><input type="checkbox" name="tema" value="intel"> Intel·ligència artificial</label>
+            <label><input type="checkbox" name="tema" value="quantica"> Computació quàntica</label>
+            <label><input type="checkbox" name="tema" value="super"> Supercomputadors</label>
+            <label><input type="checkbox" name="tema" value="algorisme"> Recerca en algoritmia</label>
+
+            
+            <p>Hi ha algun tema més que t'interessi? Explica'ns-ho!</p>
+            <textarea name="interes" id="interes" placeholder="També m'agradaria saber novetats sobre..." required rows="4" cols="40"></textarea><br>
+            
+            <button type="submit">Subscriu-me</button>
+
+        </fieldset>
+</form>
+</body>
+</html>
