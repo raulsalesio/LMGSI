@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llibre SYSTEM "llibreA.dtd">
+<llibre>
+    <titol>El Camino de los Reyes</titol>
+    <autor>Brandon Sanderson</autor>
+    <saga>El Archivo de las Tormentas</saga>
+    <part>1</part>
+    <anyPublicacio>2010</anyPublicacio>
+</llibre>

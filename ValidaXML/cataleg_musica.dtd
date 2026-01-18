@@ -1,0 +1,18 @@
+<!ELEMENT cataleg_musica (llista_artistes, llista_albumes, llista_recomanacions_albumes)>
+<!ELEMENT llista_artistes (artista+)>
+<!ELEMENT artista (nom, pais?, genere?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+<!ATTLIST artista id ID #REQUIRED>
+<!ELEMENT llista_albumes (album+)>
+<!ELEMENT album (titol, any, artistes)>
+<!ATTLIST album id ID #REQUIRED>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT artistes (artista_ref+)>
+<!ELEMENT artista_ref EMPTY>
+<!ATTLIST artista_ref ref IDREF #REQUIRED>
+<!ELEMENT llista_recomanacions_albumes (recomanacio*)>
+<!ELEMENT recomanacio EMPTY>
+<!ATTLIST recomanacio ref IDREF #REQUIRED>

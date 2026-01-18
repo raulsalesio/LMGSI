@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "joc.dtd">
+
+<joc>
+    <titol>Final Fantasy VII</titol>
+    <companyia>Square Enix</companyia>
+    <plataforma>PlayStation</plataforma>
+    <anyLlançament>1997</anyLlançament>
+
+    <personatges>
+        <personatge>
+            <nom>Cloud Strife</nom>
+            <rol>Protagonista</rol>
+        </personatge>
+
+        <personatge>
+            <nom>Tifa Lockhart</nom>
+            <rol>Suport</rol>
+        </personatge>
+
+        <personatge>
+            <nom>Sephiroth</nom>
+            <rol>Antagonista</rol>
+        </personatge>
+    </personatges>
+</joc>

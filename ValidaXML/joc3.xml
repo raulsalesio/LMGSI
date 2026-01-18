@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "joc.dtd">
+
+<joc>
+    <titol>The Legend of Zelda: Breath of the Wild</titol>
+    <companyia>Nintendo</companyia>
+    <plataforma>Nintendo Switch</plataforma>
+    <anyLlançament>2017</anyLlançament>
+
+    <modesJoc>
+        <mode principal="si">Món obert</mode>
+        <mode principal="no">Santuari</mode>
+        <mode principal="no">Combat contra caps</mode>
+    </modesJoc>
+
+    <personatges>
+        <personatge tipus="heroi" jugable="si">
+            <nom>Link</nom>
+        </personatge>
+
+        <personatge tipus="princesa" jugable="no">
+            <nom>Zelda</nom>
+        </personatge>
+
+        <personatge tipus="antagonista" jugable="no">
+            <nom>Ganon</nom>
+        </personatge>
+    </personatges>
+
+    <regions>
+        <regio clima="fred">
+            <nom>Hebra</nom>
+        </regio>
+
+        <regio clima="càlid">
+            <nom>Gerudo</nom>
+        </regio>
+
+        <regio clima="neutre">
+            <nom>Centre d'Hyrule</nom>
+            <nota>Zona amb molts guardians.</nota>
+        </regio>
+    </regions>
+</joc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "llibre.dtd">
+
+<libro>
+    <titulo>El nombre del viento</titulo>
+    <autor>Patrick Rothfuss</autor>
+    <anio>2007</anio>
+</libro>
