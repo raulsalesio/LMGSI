@@ -1,0 +1,84 @@
+{
+  "pokemons": [
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Foc"],
+      "pes": {
+        "valor": 8.5,
+        "unitat": "kg"
+      },
+      "altura": {
+        "valor": 60,
+        "unitat": "cm"
+      },
+      "estadistiques": {
+        "velocitat": 65,
+        "forca": 52,
+        "precisio": 100,
+        "resistencia": 43
+      },
+
+      "moviments": [
+        {
+          "nom": "Ascuas",
+          "descripcio": "L'objectiu és atacat amb una petita flama.",
+          "potencia": 40,
+          "contacte": false
+        },
+        {
+          "nom": "Arañazo",
+          "descripcio": "Ataca amb les urpes.",
+          "potencia": 40,
+          "contacte": true
+        }
+
+      ],
+      "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e3/latest/20160309230820/Squirtle.png",
+      "evolucions": [
+        {
+          "id": 5,
+          "nivell": 16
+        }
+      ]
+
+
+    },
+    {
+      "id": 7,
+      "nom": "Squirtle",
+      "tipus": ["Aigua"],
+      "pes": {
+        "valor": 9,
+        "unitat": "kg"
+      },
+      "altura": {
+        "valor": 50,
+        "unitat": "cm"
+      },
+      "estadistiques": {
+        "velocitat": 43,
+        "forca": 48,
+        "precisio": 100,
+        "resistencia": 65
+      },
+
+      "moviments": [
+        {
+          "nom": "Pistola Aigua",
+          "descripcio": "L'enemic és atacat amb un fort raig d'aigua.",
+          "potencia": 40,
+          "contacte": false
+        }
+      ],
+
+      "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png",
+      "evolucions": [
+        {
+          "id": 8,
+          "nivell": 16
+        }
+  ]
+    }
+]
+}

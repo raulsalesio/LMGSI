@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Informació de la persona -->
+<basic_info> 
+    <name>Peter</name>
+    <surname>Jones</surname>
+    <age>19</age>
+    <height>1.78</height>
+    <job>Informatic</job>
+    <favourite_simile>&lt;3</favourite_simile>
+    <pets>black cat</pets>
+    <pets>chiwawa</pets>
+    <address>
+        <street>Pau Claris</street>
+        <number>121</number>
+        <cp>08012</cp>
+    </address>
+</basic_info>
+
+<!-- Informació de les xarxes socials -->
+<social_media>
+    <instagram>
+        <user>pjones22</user>
+        <email>pjones22@gmail.com</email>
+    </instagram>
+    <twitter>true</twitter>
+</social_media>
+
+<!-- Informació dels amics -->
+<friends>
+    <friend>
+        <name>John</name>
+        <surname>Doe</surname>
+        <age>35</age>
+    </friend>
+    <friend>
+        <name>Anna</name>
+        <surname>Smith</surname>
+        <age/>
+    </friend>
+</friends>

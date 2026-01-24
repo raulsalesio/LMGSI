@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productes>
+<!-- Creem un producte amb dos atributs (codi i disponiblitat) i donem informacio de nom, descripcció, preu, categoria i imatge -->
+<producte codi="PC-200" disponibilitat="Estoc">
+    <nom>PC Última Generació 200</nom>
+    <descripcio>Ordinador de sobretaula d'última generació</descripcio>
+    <preu>800</preu>
+    <categoria>tecnologia</categoria>
+    <imatge>https://img.freepik.com/vector-premium/computadora-dibujos-animados-teclado-monitor-fondo-blanco_949067-2263.jpg?semt=ais_hybrid&w=740&q=80</imatge>
+</producte>
+
+<producte codi="Taula-Esc" disponibilitat="Esgotat">
+    <nom>Taula escriptori</nom>
+    <descripcio>Taula dissenyada per oferir comoditat al consumidor</descripcio>
+    <preu>200</preu>
+    <categoria>Moble</categoria>
+    <imatge>https://i.pinimg.com/736x/09/cd/5d/09cd5dde9dd0d270fd02f5a5badde902.jpg</imatge>
+</producte>
+
+</productes>
